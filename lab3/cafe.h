@@ -22,6 +22,12 @@ public:
     QString getAddress() const;
     QString getWorktime() const;
 
-
+private:
+    QString id;
+    QString name; //название
+    QString address; //адрес
+    QString type; //тип кухни
+    QString worktime; //время работы
+};
 
 #endif // CAFE_H
